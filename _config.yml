@@ -1,7 +1,7 @@
 site: Jayanta Kurumathur
 
 url: jayantak.com
-baseurl: jayantak.com
+baseurl: ''
 
 collections:
   pages:
