@@ -16,6 +16,8 @@ menu_settings:
       url: '/about'
     - title: 'Contact'
       url: '/contact'
+    - title: 'Favourites'
+      url: '/favourites'
 
 footer_settings:
   footer_tagline: ''
