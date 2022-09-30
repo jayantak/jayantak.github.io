@@ -18,3 +18,6 @@ pygmentsCodefencesGuessSyntax = true
     category = "categories"
     series = "series"
     tag = "tags"
+    
+[params]
+    displayMode = "dark"
