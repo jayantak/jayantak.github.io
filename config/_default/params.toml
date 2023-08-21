@@ -26,7 +26,7 @@ listDateFormat = "2/1/2006"
 # Read More links for truncated summaries
 # readMore = true
 # postSectionName = "blog"
-gtagId = "G-XXXXXXXXXX"
+gtagId = "G-BPSRZQLKKJ"
 
 reversepagetitle = true # When set to 'true', the Window Title will be reversed to 'Title | Author' instead of the default 'Author | Title'
 
