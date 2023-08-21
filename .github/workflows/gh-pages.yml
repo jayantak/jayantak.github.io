@@ -24,7 +24,7 @@ jobs:
       - name: Build
         shell: bash
         run: 
-          sed -i "s/G-XXXXXXXXXX/${{ secrets.GA4TAG }}/g" config/_default/params.toml && cat config/_default/params.toml && hugo --minify
+          hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
