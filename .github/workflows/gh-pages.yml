@@ -24,9 +24,9 @@ jobs:
       - name: Build
         shell: bash
         env: 
-          TAGID: {{ secrets.G4TAG }}
+          TAGID: ${{ secrets.GA4TAG }}
         run: 
-          sed -i "s/G-XXXXXXXXXX/G-$TAGID/g" config/_default/params.toml && cat config/_default/params.toml && hugo --minify
+          sed -i "s/G-XXXXXXXXXX/$TAGID/g" config/_default/params.toml && cat config/_default/params.toml && hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
