@@ -4,7 +4,7 @@ identifier = "home"
 weight = 100
 url = "/"
 
-[[main]
+[[main]]
 name = "Favourites"
 weight = 200
 identifier = "favs"
