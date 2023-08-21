@@ -3,3 +3,9 @@ name = "Home"
 identifier = "home"
 weight = 100
 url = "/"
+
+[[main]
+name = "Favourites"
+weight = 200
+identifier = "favs"
+url = "/favourites/"
