@@ -23,7 +23,7 @@ jobs:
 
       - name: Build
         run: 
-          sed -i 's/G-XXXXXXXXXX/G-'$GA4_TAG_ID'/g' config/_default/params.toml && cat config/_default/params.toml && hugo --minify
+          sed -i "s/G-XXXXXXXXXX/G-$GA4_TAG_ID/g" config/_default/params.toml && cat config/_default/params.toml && hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
