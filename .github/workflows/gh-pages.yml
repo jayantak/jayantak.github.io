@@ -23,8 +23,7 @@ jobs:
 
       - name: Build
         run: 
-          sed -i 's/G-XXXXXXXXXX/$GA4_TRACKING_CODE/g' input.txt
-          hugo --minify
+          sed -i 's/G-XXXXXXXXXX/$GA4_TRACKING_CODE/g' config/_default/params.toml && hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
