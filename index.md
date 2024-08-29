@@ -1,6 +1,5 @@
 ---
 title: Jayanta Kurumathur
-location: Austin, TX, USA
 author: mellowcolour
 author-url: "https://jayantak.com"
 date: 2024-08-28
