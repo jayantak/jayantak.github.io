@@ -1,24 +1,56 @@
+@font-face {
+  font-family: 'Berkeley Mono';
+  src: url('../fonts/berkeley-mono/WEB/BerkeleyMono-Regular.woff2') format('woff2'),
+       url('../fonts/berkeley-mono/WEB/BerkeleyMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Berkeley Mono';
+  src: url('../fonts/berkeley-mono/WEB/BerkeleyMono-Bold.woff2') format('woff2'),
+       url('../fonts/berkeley-mono/WEB/BerkeleyMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Berkeley Mono';
+  src: url('../fonts/berkeley-mono/WEB/BerkeleyMono-Italic.woff2') format('woff2'),
+       url('../fonts/berkeley-mono/WEB/BerkeleyMono-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Berkeley Mono';
+  src: url('../fonts/berkeley-mono/WEB/BerkeleyMono-BoldItalic.woff2') format('woff2'),
+       url('../fonts/berkeley-mono/WEB/BerkeleyMono-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
 @import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
 
 :root {
-  --font-family: "JetBrains Mono", monospace;
-  --line-height: 1.20rem;
-  --border-thickness: 2px;
-  --text-color: #000;
-  --text-color-alt: #666;
-  --background-color: #fff;
-  --background-color-alt: #eee;
+--font-family: "Berkeley Mono", "Jetbrains Mono", monospace;
+--line-height: 1.20rem;
+--border-thickness: 2px;
+--text-color: #000;
+--text-color-alt: #666;
+--background-color: #fff;
+--background-color-alt: #eee;
 
-  --font-weight-normal: 500;
-  --font-weight-medium: 600;
-  --font-weight-bold: 800;
+--font-weight-normal: 500;
+--font-weight-medium: 600;
+--font-weight-bold: 800;
 
-  font-family: var(--font-family);
-  font-optical-sizing: auto;
-  font-weight: var(--font-weight-normal);
-  font-style: normal;
-  font-variant-numeric: tabular-nums lining-nums;
-  font-size: 16px;
+font-family: var(--font-family);
+font-optical-sizing: auto;
+font-weight: var(--font-weight-normal);
+font-style: normal;
+font-variant-numeric: tabular-nums lining-nums;
+font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
