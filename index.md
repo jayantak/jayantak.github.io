@@ -7,3 +7,5 @@ lang: en
 toc-title: Contents
 version: v0.1.0
 ---
+
+<a href="mailto:website@jayantak.com?subject=Contact%20from%20jayantak.com">Contact Me</a>
